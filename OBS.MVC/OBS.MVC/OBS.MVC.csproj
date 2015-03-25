@@ -161,6 +161,8 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\EnumHelper.cs" />
+    <Compile Include="Helpers\SelectListHelper.cs" />
     <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\Bolum.cs" />
     <Compile Include="Models\Ders.cs" />
@@ -168,9 +170,16 @@
     <Compile Include="Models\DonemDers.cs" />
     <Compile Include="Models\Enumlar.cs" />
     <Compile Include="Models\Fakulte.cs" />
+    <Compile Include="Models\HelperModels\NIslemSonuc.cs" />
+    <Compile Include="Models\HelperModels\NSession.cs" />
     <Compile Include="Models\Ogrenci.cs" />
     <Compile Include="Models\OgrenciDonemDers.cs" />
     <Compile Include="Models\OgretimGorevlisi.cs" />
+    <Compile Include="Models\ViewModels\NDers.cs" />
+    <Compile Include="Models\ViewModels\NIdAd.cs" />
+    <Compile Include="Models\ViewModels\NOgrenciDersNotu.cs" />
+    <Compile Include="Models\ViewModels\NSelectListItem.cs" />
+    <Compile Include="Models\ViewModels\NUyeGiris.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
   </ItemGroup>
@@ -215,8 +224,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\HelperModels\" />
-    <Folder Include="Models\ViewModels\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
